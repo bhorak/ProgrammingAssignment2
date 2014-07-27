@@ -5,7 +5,11 @@
 ## has 4 methods
 
 makeCacheMatrix <- function(x = matrix()) {
+    
+    ## initializez a variable, will be used for the inverse
+    ## matrix
     m<- NULL
+    
     ## allows the user to enter a new matrix to be cached 
     set <- function(y) {
         x <<- y
